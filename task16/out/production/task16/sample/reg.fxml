@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="593.0" prefWidth="861.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="Sername" layoutX="337.0" layoutY="87.0" onMouseClicked="#errorRemove" promptText="Фамилия" />
+      <TextField fx:id="Name" layoutX="337.0" layoutY="132.0" onMouseClicked="#errorRemove" promptText="Имя" />
+      <TextField fx:id="Fathered" layoutX="337.0" layoutY="184.0" onMouseClicked="#errorRemove" promptText="Отчество" />
+      <TextField fx:id="mail" layoutX="337.0" layoutY="234.0" onMouseClicked="#errorRemove" promptText="Email" />
+      <TextField fx:id="pass_reg" layoutX="337.0" layoutY="282.0" onMouseClicked="#errorRemove" promptText="Пароль" />
+      <TextField fx:id="pass_access" layoutX="337.0" layoutY="330.0" onMouseClicked="#errorRemove" promptText="Подтверждение пароля" />
+      <TextField fx:id="phone" layoutX="337.0" layoutY="380.0" onMouseClicked="#errorRemove" promptText="Телефон" />
+      <TextField fx:id="log" layoutX="337.0" layoutY="430.0" onMouseClicked="#errorRemove" promptText="Логин" />
+      <Button layoutX="356.0" layoutY="478.0" mnemonicParsing="false" onAction="#reg" text="Зарегестироваться" />
+      <Button layoutX="405.0" layoutY="518.0" mnemonicParsing="false" onAction="#logOpen" text="Вход" />
+   </children>
+</AnchorPane>
